@@ -1,0 +1,12 @@
+@import './abstracts.scss';
+@import './Components/header';
+@import './Components/hero';
+@import './Components/reviews';
+
+
+body {
+    font-size: 14px;
+    font-family: $open-sans;
+    color: $white;
+    background-color: $dark-blue-main;
+}
