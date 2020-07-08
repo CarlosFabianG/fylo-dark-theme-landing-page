@@ -1,9 +1,64 @@
 /* variables */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.4em 1.4em;
+}
+.navbar__logo {
+  width: 85px;
+}
+.navbar__menu {
+  font-size: 0.9em;
+}
+.navbar__menu--list {
+  display: flex;
+}
+.navbar__menu--list li {
+  list-style: none;
+  margin-left: 1.9em;
+}
+.navbar__menu--list li a {
+  text-decoration: none;
+  color: white;
+}
+
+.hero {
+  text-align: center;
+}
+.hero__wrapper {
+  padding: 2.6em;
+}
+.hero__img {
+  width: 85vw;
+}
+.hero__h1 {
+  line-height: 1.7;
+  font-size: 1.7em;
+  font-family: "Raleway", sans-serif;
+}
+.hero__copy {
+  line-height: 1.5;
+  margin-bottom: 2em;
+}
+.hero__button {
+  padding: 1.1em 5.5em;
+  color: white;
+  border: 0;
+  border-radius: 20px;
+  background-image: linear-gradient(to right, #65e2d9 0%, #339ecc 100%);
+}
+
 body {
   font-size: 14px;
+  margin: 0;
   font-family: "Open Sans", sans-serif;
   color: white;
   background-color: #181f2a;
+}
+
+header {
+  background-image: url("../images/bg-curvy-mobile.svg");
 }
 
 /*# sourceMappingURL=main.css.map */

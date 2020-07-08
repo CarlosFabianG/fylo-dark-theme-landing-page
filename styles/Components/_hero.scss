@@ -1,0 +1,25 @@
+.hero {
+    text-align: center;
+    &__wrapper {
+        padding: 2.6em;
+    }
+    &__img {
+        width: 85vw;
+    }
+    &__h1 {
+        line-height: 1.7;
+        font-size: 1.7em;
+        font-family: $raleway;
+    }
+    &__copy {
+        line-height: 1.5;
+        margin-bottom: 2em;
+    }
+    &__button {
+        padding: 1.1em 5.5em;
+        color: white;
+        border: 0;
+        border-radius: 20px;
+        background-image: linear-gradient(to right, $cyan-gradient 0%, $blue-gradient 100%);
+    }
+}

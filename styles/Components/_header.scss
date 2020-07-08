@@ -1,0 +1,27 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.4em 1.4em;
+
+
+    &__logo {
+        width: 85px;
+    }
+
+    &__menu {
+        font-size: .9em;
+        &--list {
+            display: flex;
+            li {
+                list-style: none;
+                margin-left: 1.9em;
+                a {
+                    text-decoration: none;
+                    color: white;
+                }
+                
+            }
+        }
+    }
+}
