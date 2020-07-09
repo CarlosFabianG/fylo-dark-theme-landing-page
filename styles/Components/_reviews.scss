@@ -1,0 +1,34 @@
+.reviews {
+    margin-bottom: 150px;
+    &__wrapper {
+        padding: 0 3.5em;
+    }
+    &__card {
+        background: $dark-blue-testimonials;
+        font-size: .7em;
+        padding: 1.9em;
+        margin-bottom: 2.5em;
+        &-copy {
+            line-height: 2;
+            margin-bottom: 2em;
+        }
+        &-profile {
+            display: flex;
+            align-items: center;
+            .name {
+                p {
+                    margin: 0;
+                    margin-bottom: .4em;
+                    span {
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+        &-img {
+            width: 30px;
+            border-radius: 50%;
+            margin-right: .8em;
+        }
+    }
+}

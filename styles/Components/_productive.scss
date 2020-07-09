@@ -1,8 +1,25 @@
 .productive {
+    margin-bottom: 150px;
     &__wrapper {
-        padding: 0 1em;
+        padding: 0 1.6em;
     }
     &__img {
         width: 85vw;
+    }
+    &__copy {
+        line-height: 1.5;
+    }
+    &__link {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: fit-content;
+        text-decoration: none;
+        color: $cyan-gradient;
+        padding-bottom: 5px;
+        border-bottom: solid 1px $cyan-gradient;
+        img {
+            margin-left: 4px;
+        }
     }
 }
