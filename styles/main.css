@@ -132,6 +132,26 @@
   margin-right: 0.8em;
 }
 
+.footer {
+  background-color: #0b1523;
+  padding: 2em;
+}
+.footer__logo-text > img {
+  margin: 2rem 0;
+}
+.footer__phone-email {
+  margin-bottom: 5rem;
+}
+.footer__phone-email p img {
+  margin-right: 1.3rem;
+}
+.footer__about-us {
+  margin-bottom: 3rem;
+}
+.footer__contact-us {
+  margin-bottom: 5rem;
+}
+
 body {
   font-size: 14px;
   margin: 0;

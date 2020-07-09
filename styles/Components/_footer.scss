@@ -1,0 +1,24 @@
+.footer {
+    background-color: $dark-blue-footer;
+    padding: 2em;
+    &__logo-text {
+        > img {
+            margin: 2rem 0;
+        }
+    }
+
+    &__phone-email {
+        margin-bottom: 5rem;
+        p {
+            img {
+                margin-right: 1.3rem;
+            }
+        }
+    }
+    &__about-us {
+        margin-bottom: 3rem;
+    }
+    &__contact-us {
+        margin-bottom: 5rem;
+    }
+}
