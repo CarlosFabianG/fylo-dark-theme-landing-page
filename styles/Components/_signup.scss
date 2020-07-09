@@ -1,0 +1,32 @@
+.signup {
+    padding: 1.2rem;
+    position: relative;
+    top: 170px;
+    &__card {
+        background: $dark-blue-testimonials;
+        border-radius: 10px;
+        text-align: center;
+        padding: 1.5rem;
+        &-h3 {
+
+        }
+        &-copy {
+            line-height: 1.5;
+            margin-bottom: 2.2rem;
+        }
+        &-input {
+            padding: 1.1em 5.5em;
+            border: 0;
+            border-radius: 25px;
+            margin-bottom: 1.4rem;
+        }
+        &-button {
+            padding: 1.1em 6.2em;
+            border: 0;
+            border-radius: 25px;
+            color: white;
+            background-image: linear-gradient(to right, $cyan-gradient 0%, $blue-gradient 100%);
+        }
+    }
+}
+

@@ -132,9 +132,39 @@
   margin-right: 0.8em;
 }
 
+.signup {
+  padding: 1.2rem;
+  position: relative;
+  top: 170px;
+}
+.signup__card {
+  background: #202a3c;
+  border-radius: 10px;
+  text-align: center;
+  padding: 1.5rem;
+}
+.signup__card-copy {
+  line-height: 1.5;
+  margin-bottom: 2.2rem;
+}
+.signup__card-input {
+  padding: 1.1em 5.5em;
+  border: 0;
+  border-radius: 25px;
+  margin-bottom: 1.4rem;
+}
+.signup__card-button {
+  padding: 1.1em 6.2em;
+  border: 0;
+  border-radius: 25px;
+  color: white;
+  background-image: linear-gradient(to right, #65e2d9 0%, #339ecc 100%);
+}
+
 .footer {
   background-color: #0b1523;
   padding: 2em;
+  padding-top: 12rem;
 }
 .footer__logo-text > img {
   margin: 2rem 0;
