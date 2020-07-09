@@ -6,6 +6,20 @@
         > img {
             margin: 2rem 0;
         }
+        &--copy {
+            display: flex;
+            align-items: baseline;
+            img {
+                margin-right: 1.3em;
+            }
+            > img {
+                margin-right: 2em;
+            }
+            p {
+                line-height: 2;
+                font-size: 1rem;
+            }
+        }
     }
 
     &__phone-email {
@@ -21,5 +35,13 @@
     }
     &__contact-us {
         margin-bottom: 5rem;
+    }
+    &__sm-icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+            margin-right: 10px;
+        }
     }
 }

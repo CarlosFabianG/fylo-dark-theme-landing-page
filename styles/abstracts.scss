@@ -10,3 +10,12 @@ $blue-gradient: hsl(198, 60%, 50%);
 
 $open-sans: 'Open Sans', sans-serif;
 $raleway: 'Raleway', sans-serif;
+
+
+/* media queries */
+
+@mixin desktop-s {
+    @media (min-width: 1024px){
+        @content;
+    }
+}

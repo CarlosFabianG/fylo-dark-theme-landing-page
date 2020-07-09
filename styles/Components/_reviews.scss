@@ -1,7 +1,9 @@
 .reviews {
-    margin-bottom: 150px;
+    
     &__wrapper {
         padding: 0 3.5em;
+        display: flex;
+        flex-direction: column;
     }
     &__card {
         background: $dark-blue-testimonials;
