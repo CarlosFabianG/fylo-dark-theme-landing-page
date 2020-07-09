@@ -4,6 +4,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 1.4em 1.4em;
+  font-family: "Raleway", sans-serif;
 }
 .navbar__logo {
   width: 85px;
@@ -49,6 +50,36 @@
   background-image: linear-gradient(to right, #65e2d9 0%, #339ecc 100%);
 }
 
+.features {
+  margin-top: 70px;
+  text-align: center;
+}
+.features__wrapper {
+  padding: 2.6em;
+}
+.features__card {
+  margin-bottom: 100px;
+}
+.features__card-img {
+  margin-bottom: 20px;
+  width: 70px;
+}
+.features__card-h3 {
+  margin: 0.5em 0;
+  font-family: "Raleway", sans-serif;
+}
+.features__card-copy {
+  line-height: 1.5;
+  margin: 0.5em 0;
+}
+
+.productive__wrapper {
+  padding: 0 1em;
+}
+.productive__img {
+  width: 85vw;
+}
+
 body {
   font-size: 14px;
   margin: 0;
@@ -58,7 +89,7 @@ body {
 }
 
 header {
-  background-image: url("../images/bg-curvy-mobile.svg");
+  background: url("../images/bg-curvy-mobile.svg");
 }
 
 /*# sourceMappingURL=main.css.map */

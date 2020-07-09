@@ -1,6 +1,8 @@
 @import './abstracts.scss';
 @import './Components/header';
 @import './Components/hero';
+@import './Components/features';
+@import './Components/productive';
 @import './Components/reviews';
 
 
@@ -15,5 +17,5 @@ body {
 }
 
 header {
-    background-image: url('../images/bg-curvy-mobile.svg');
+    background: url('../images/bg-curvy-mobile.svg');
 }
