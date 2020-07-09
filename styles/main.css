@@ -194,4 +194,24 @@ header {
   background: url("../images/bg-curvy-mobile.svg");
 }
 
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin: 0;
+  padding-bottom: 10px;
+  background: #0b1523;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.attribution a {
+  color: #65e2d9;
+  text-decoration: none;
+  margin-left: 5px;
+}
+.attribution img {
+  width: 17px;
+  margin-left: 5px;
+}
+
 /*# sourceMappingURL=main.css.map */

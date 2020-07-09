@@ -21,3 +21,23 @@ body {
 header {
     background: url('../images/bg-curvy-mobile.svg');
 }
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    margin: 0;
+    padding-bottom: 10px;
+    background: $dark-blue-footer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a { 
+        color: $cyan-gradient;
+        text-decoration: none;
+        margin-left: 5px;
+    }
+    img {
+        width: 17px;
+        margin-left: 5px;
+    }
+}
