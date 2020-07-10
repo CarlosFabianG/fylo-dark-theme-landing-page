@@ -89,8 +89,17 @@
 }
 @media (min-width: 1024px) {
   .features__wrapper {
-    flex-direction: row;
     align-items: center;
+    justify-content: space-around;
+  }
+  .features__container--row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90vw;
+  }
+  .features__card {
+    max-width: 380px;
   }
 }
 
@@ -162,9 +171,15 @@
 @media (min-width: 1024px) {
   .reviews__wrapper {
     flex-direction: row;
+    justify-content: center;
   }
   .reviews__card {
     margin: 0 1rem;
+    max-width: 350px;
+  }
+  .reviews__card-copy {
+    font-size: 1.3em;
+    line-height: 1.5;
   }
 }
 
@@ -267,7 +282,7 @@
     justify-content: space-between;
   }
   .footer .footer__logo-text--copy {
-    width: 37vw;
+    max-width: 370px;
   }
 }
 

@@ -58,7 +58,7 @@
                 align-items: baseline;
                 justify-content: space-between;
                 &--copy {
-                    width: 37vw;
+                    max-width: 370px;
                 }
             }
         }

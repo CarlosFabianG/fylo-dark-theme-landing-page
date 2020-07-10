@@ -37,9 +37,15 @@
     @include desktop-s {
         &__wrapper {
             flex-direction: row;
+            justify-content: center;
         }
         &__card {
             margin: 0 1rem;
+            max-width: 350px;
+            &-copy {
+                font-size: 1.3em;
+                line-height: 1.5;
+            }
         }
     }
 }
