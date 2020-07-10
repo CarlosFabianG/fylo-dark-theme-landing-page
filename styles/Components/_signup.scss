@@ -28,5 +28,18 @@
             background-image: linear-gradient(to right, $cyan-gradient 0%, $blue-gradient 100%);
         }
     }
+    @include desktop-s {
+        &__card {
+            width: 60%;
+            margin: 0 auto;
+            &-input {
+                padding: 1.1em 6.5em;
+                margin-right: 1rem;
+            }
+            &-button {
+                padding: 1.1em 2.2em;
+            }
+        }
+    }
 }
 

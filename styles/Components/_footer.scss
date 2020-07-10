@@ -44,4 +44,23 @@
             margin-right: 10px;
         }
     }
+
+    @include desktop-s {
+        .footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            &__brand-logo {
+                margin-top: 5vh;
+            }
+            &__logo-text {
+                display: flex;
+                align-items: baseline;
+                justify-content: space-between;
+                &--copy {
+                    width: 37vw;
+                }
+            }
+        }
+    }
 }

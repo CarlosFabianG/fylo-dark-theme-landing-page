@@ -110,6 +110,11 @@
 .productive__link img {
   margin-left: 4px;
 }
+@media (min-width: 1024px) {
+  .productive__wrapper {
+    flex-direction: row;
+  }
+}
 
 .reviews__wrapper {
   padding: 0 3.5em;
@@ -142,6 +147,14 @@
   border-radius: 50%;
   margin-right: 0.8em;
 }
+@media (min-width: 1024px) {
+  .reviews__wrapper {
+    flex-direction: row;
+  }
+  .reviews__card {
+    margin: 0 1rem;
+  }
+}
 
 .signup {
   padding: 1.2rem;
@@ -170,6 +183,19 @@
   border-radius: 25px;
   color: white;
   background-image: linear-gradient(to right, #65e2d9 0%, #339ecc 100%);
+}
+@media (min-width: 1024px) {
+  .signup__card {
+    width: 60%;
+    margin: 0 auto;
+  }
+  .signup__card-input {
+    padding: 1.1em 6.5em;
+    margin-right: 1rem;
+  }
+  .signup__card-button {
+    padding: 1.1em 2.2em;
+  }
 }
 
 .footer {
@@ -213,6 +239,24 @@
 }
 .footer__sm-icons img {
   margin-right: 10px;
+}
+@media (min-width: 1024px) {
+  .footer .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  .footer .footer__brand-logo {
+    margin-top: 5vh;
+  }
+  .footer .footer__logo-text {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+  .footer .footer__logo-text--copy {
+    width: 37vw;
+  }
 }
 
 body {

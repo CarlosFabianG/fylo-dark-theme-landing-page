@@ -25,4 +25,9 @@
             margin-left: 4px;
         }
     }
+    @include desktop-s {
+        &__wrapper {
+            flex-direction: row;
+        }
+    }
 }
