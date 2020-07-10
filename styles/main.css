@@ -50,6 +50,18 @@
   border-radius: 20px;
   background-image: linear-gradient(to right, #65e2d9 0%, #339ecc 100%);
 }
+@media (min-width: 1024px) {
+  .hero__img {
+    width: 55vw;
+  }
+  .hero__text-container {
+    width: 50vw;
+    margin: 0 auto;
+  }
+  .hero__copy {
+    padding: 0 6vh;
+  }
+}
 
 .features {
   margin-top: 70px;

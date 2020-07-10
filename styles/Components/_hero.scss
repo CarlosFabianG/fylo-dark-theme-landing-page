@@ -22,4 +22,17 @@
         border-radius: 20px;
         background-image: linear-gradient(to right, $cyan-gradient 0%, $blue-gradient 100%);
     }
+
+    @include desktop-s {
+        &__img {
+            width: 55vw;
+        }
+        &__text-container {
+            width: 50vw;
+            margin: 0 auto;
+        }
+        &__copy {
+            padding: 0 6vh;
+        }
+    }
 }
