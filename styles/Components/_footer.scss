@@ -52,11 +52,12 @@
             align-items: baseline;
             &__brand-logo {
                 margin-top: 5vh;
+                margin-left: 5vw;
             }
             &__logo-text {
                 display: flex;
                 align-items: baseline;
-                justify-content: space-between;
+                justify-content: space-around;
                 &--copy {
                     max-width: 370px;
                 }

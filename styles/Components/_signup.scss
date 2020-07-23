@@ -30,6 +30,12 @@
         &__card {
             width: 60%;
             margin: 0 auto;
+            &-h3 {
+                font-size: 2em;
+            }
+            &-copy {
+                padding: 0 5rem;
+            }
             &-input {
                 padding: 1.1em 6.5em;
                 margin-right: 1rem;
